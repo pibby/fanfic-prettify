@@ -1,0 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic|Montserrat:400);
+body {max-width: 42em; margin: 0 auto; font: 20px/1.75 Merriweather,Georgia,serif; background-color: #fafafa; color: #38444a;}
+.header {font-size: 16px; line-height: 1.1; border-bottom: 3px double #aaa; text-align: center;}
+h1,h2,h3,h4,h5 {font-family: Montserrat,Arial,Helvetica,sans-serif;}
