@@ -21,7 +21,12 @@ def fetch_story(id)
 end
 
 get '/' do
-  "Hello, world."
+  slim :home
+end
+
+post '/' do
+  fetch_story(params[:story_id])
+  slim :index
 end
 
 get '/:story_id' do

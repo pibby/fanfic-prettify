@@ -14,6 +14,33 @@ body {
   border-bottom: 3px double #aaa;
   text-align: center;
 }
+.home {
+  font-size: 13px;
+  line-height: 1.3;
+}
+a {
+  color: #3d98e5;
+}
+form {
+  margin-bottom: 20px;
+}
+input {
+  width: 150px;
+  font-size: 15px;
+  padding: 5px;
+  border: 1px solid #aaa;
+}
+button {
+  background: #3d98e5;
+  color: #fafafa;
+  border: 0;
+  padding: 6px 10px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.footer {
+  font-size: 11px;
+}
 h1,h2,h3,h4,h5 {
   font-family: Montserrat,Arial,Helvetica,sans-serif;
 }
@@ -25,5 +52,9 @@ h1,h2,h3,h4,h5 {
   .header {
     font-size: 16px;
     line-height: 1.1;
+  }
+  .home {
+    font-size: 18px;
+    line-height: 1.4;
   }
 }

@@ -1,0 +1,17 @@
+section.home
+	h1 Fanfic Prettify
+	p
+		'  Enter the story ID from any multi-chapter story on 
+		a href="http://www.fanfiction.net" Fanfiction.net
+		'  (the numbers after the /s/ in the URL), and this app will gather every chapter from the story into one easily readable page. You can even save the story to your computer by choosing File -> Save Page As... in your browser of choice.
+
+	form action="/" method="POST"
+		input type="text" name="story_id" placeholder="8874735" required="required"
+		button type="submit" Submit Story ID
+
+	small Note: Stories with many chapters may take a few seconds to load, please be patient.
+	
+	footer.footer
+		p No copyright infringement intended; all stories belong to their respective authors and/or Fanfiction.net. Each story includes the title, author, and a link to the original version. Please support the authors with a follow, favorite, or review.
+		p
+			a href="http://www.twitter.com/buildtheweb" target="_blank" Made with &hearts; by Katie
