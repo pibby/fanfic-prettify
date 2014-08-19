@@ -9,8 +9,8 @@ def fetch_story(id)
   story = Nokogiri::HTML(open(@base_url))
   last_page = Integer(story.at_css('#chap_select option:last-of-type').attr('value')) # find out how many pages are in the story
   title = story.css('link[rel=canonical]')[0]['href'].split('/').last # grab the hyphen delineated title
-  @full_title = title.gsub('-',' ')
-  @author = story.css('#profile_top a')[0].text
+  @full_title = title.gsub('-',' ') # replace the hyphens with spaces
+  @author = story.css('#profile_top a')[0].text #get the author's username
   @full_story = ""
   # Grab the story content from each page
   for page_num in 1..last_page
